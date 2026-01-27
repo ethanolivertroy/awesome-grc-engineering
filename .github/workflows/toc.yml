@@ -1,0 +1,30 @@
+name: TOC Generator
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'README.md'
+
+jobs:
+  generateTOC:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Generate TOC
+        run: |
+          npm install -g doctoc
+          doctoc README.md --title '## Contents'
+
+      - name: Commit TOC
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'docs: update table of contents'
+          file_pattern: 'README.md'
