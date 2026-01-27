@@ -24,7 +24,7 @@ jobs:
           doctoc README.md --title '## Contents'
 
       - name: Commit TOC
-        uses: stefanzweifel/git-auto-commit-action@v5
+        uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: 'docs: update table of contents'
           file_pattern: 'README.md'
