@@ -1,0 +1,17 @@
+# Localhost and local addresses
+http://localhost
+http://127\.0\.0\.1
+https://localhost
+
+# Rate-limited APIs (add as needed)
+# https://api\.github\.com/.*
+
+# URLs requiring authentication (add as needed)
+# https://private\.example\.com/.*
+
+# Placeholder URLs
+http://example\.com
+https://example\.com
+
+# Email addresses (optional - lychee validates these)
+# mailto:.*
