@@ -29,10 +29,12 @@ Decimal phases appear between their surrounding integers in numeric order.
   3. Table of contents auto-generates from README structure via doctoc
   4. CONTRIBUTING.md clearly documents submission criteria aligned with GRC Engineering Manifesto
   5. Repository is properly configured with required files (LICENSE, CODE_OF_CONDUCT) and GitHub topics
-**Plans**: TBD
+**Plans**: 3 plans
 
 Plans:
-- [ ] 01-01: TBD (will be defined during phase planning)
+- [ ] 01-01-PLAN.md — Create core files (LICENSE, README skeleton, contributing.md, code-of-conduct.md)
+- [ ] 01-02-PLAN.md — Create GitHub Actions workflows (awesome-lint, lychee, toc, dependabot, PR template)
+- [ ] 01-03-PLAN.md — Validate and verify (run awesome-lint, generate TOC, configure GitHub topics)
 
 ### Phase 2: Core Tools Curation
 **Goal**: Users can discover curated GRC engineering tools with opinionated commentary explaining why each matters
@@ -92,7 +94,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation & Infrastructure | 0/TBD | Not started | - |
+| 1. Foundation & Infrastructure | 0/3 | Planned | - |
 | 2. Core Tools Curation | 0/TBD | Not started | - |
 | 3. Learning & Frameworks | 0/TBD | Not started | - |
 | 4. Community & Launch | 0/TBD | Not started | - |
