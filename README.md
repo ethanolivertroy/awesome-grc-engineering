@@ -223,6 +223,19 @@ SBOM generator that creates Software Bill of Materials from container images, fi
 - [Official Site](https://anchore.com/opensource/)
 - [GitHub](https://github.com/anchore/syft)
 
+### Venturalitica SDK
+
+Open-source Python SDK (Apache-2.0) that generates machine-readable compliance evidence from ML training pipelines. Produces native NIST OSCAL Assessment Results, CycloneDX ML BOM (model provenance and dataset lineage), bias audits, and EU AI Act Annex IV technical documentation as a byproduct of model training.
+
+**Why it matters:** Brings GRC engineering primitives (policy-as-code, evidence-as-code) to the AI/ML lifecycle. Extends OSCAL — the same format FedRAMP uses for cybersecurity — to AI governance, enabling continuous compliance evidence for EU AI Act (Arts. 9–15) and ISO 42001 without parallel reporting pipelines.
+
+**Best for:** ML teams building high-risk AI systems who need verifiable, auditor-ready evidence mapped to EU AI Act, ISO 42001, and NIST AI RMF controls.
+
+**Tags:** both
+
+- [Official Site](https://venturalitica.ai)
+- [GitHub](https://github.com/Venturalitica/venturalitica-sdk)
+
 ### AWS CloudTrail
 
 Native AWS audit logging service that records API calls and resource activity across your AWS account. Provides immutable audit trail for compliance evidence and security forensics.
