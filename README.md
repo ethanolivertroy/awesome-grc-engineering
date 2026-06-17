@@ -390,6 +390,7 @@ Complementary curated lists for GRC engineering domains:
 - [Awesome Security](https://github.com/sbilly/awesome-security) - Comprehensive security tools, libraries, and resources across all security domains.
 - [Awesome DevSecOps](https://github.com/TaptuIT/awesome-devsecops) - Security integrated into DevOps workflows and CI/CD pipelines.
 - [Awesome Threat Intelligence](https://github.com/hslatman/awesome-threat-intelligence) - Threat intelligence resources for risk-informed decision making.
+- [Awesome Corporate Standards](https://github.com/openapi/awesome-corporate-standards) - International standards, frameworks, and certification bodies for organizations across security, privacy, ESG, finance, and GRC, each linked to its official issuing body.
 
 ### Infrastructure & Automation
 
