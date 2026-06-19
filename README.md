@@ -270,6 +270,18 @@ Commercial compliance platform providing continuous control monitoring and autom
 
 - [Official Site](https://vanta.com)
 
+### heygrc (Commercial)
+
+GitHub App that reviews every pull request against the compliance frameworks an organization must meet (ISO 27001, SOC 2, GDPR, EU AI Act, and more) and flags control-relevant changes inline, citing the specific control clause. Built by ISMS Copilot.
+
+**Why it matters:** Brings continuous compliance into code review itself, surfacing control impact at the moment a change is proposed rather than during periodic evidence collection.
+
+**Best for:** Engineering teams that want compliance feedback in the pull request workflow, mapped to the clauses of the frameworks they are accountable to.
+
+**Tags:** both
+
+- [Official Site](https://heygrc.com)
+
 **Open-source alternative note:** For open-source evidence automation, combine Syft (SBOM) + Grype (vulnerability scanning) + Cloud Custodian (policy enforcement) + CloudTrail/native audit logs with custom integration scripts. Commercial platforms (Drata/Vanta) provide turnkey integrations and compliance-specific workflows at the cost of vendor lock-in.
 
 ## Learning Resources
