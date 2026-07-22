@@ -272,6 +272,16 @@ Commercial compliance platform providing continuous control monitoring and autom
 
 **Open-source alternative note:** For open-source evidence automation, combine Syft (SBOM) + Grype (vulnerability scanning) + Cloud Custodian (policy enforcement) + CloudTrail/native audit logs with custom integration scripts. Commercial platforms (Drata/Vanta) provide turnkey integrations and compliance-specific workflows at the cost of vendor lock-in.
 
+### halo-record
+
+Open-source recorder that turns AI agent actions (tool calls, model calls, data access) into tamper-evident, hash-chained runtime records. Produces self-verifying HTML reports a security reviewer can re-check in their own browser, date-windowed CSV exports with a chain-tied manifest for audit periods, and deterministic policy checks against AIUC-1 and the OWASP Agentic Top 10. Apache-2.0, zero runtime dependencies, Python + TypeScript.
+
+**Why it matters:** When AI agents enter security reviews, "what did the agent actually do" currently gets answered with screenshots and vendor logs. Verifiable runtime records give GRC teams evidence that doesn't depend on trusting the party that produced it.
+
+**Why engineers love it:** One line to instrument (`trace(run_my_agent)`), framework adapters (LangChain, MCP, LiteLLM, OpenTelemetry), and a `halo demo` command that scaffolds the whole record → witness → report loop locally.
+
+**Tags:** engineer-friendly
+
 ## Learning Resources
 
 This section serves dual audiences: GRC professionals learning technical implementation skills and engineers learning compliance frameworks. Each resource includes audience labels (GRC→technical, technical→GRC, or both) and describes what you'll learn to help you find the right educational path.
