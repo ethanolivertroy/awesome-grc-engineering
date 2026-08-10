@@ -320,6 +320,7 @@ SOC 2 compliance has evolved from annual point-in-time audits to continuous cont
 - [SOC 2 is dead, long live SOC 2!](https://blog.grc.engineering/p/soc-2-is-dead-long-live-soc-2) - Learn the ALCOVE framework for continuous SOC 2 assurance: Automated control monitoring, continuous evidence collection, and real-time compliance visibility. Practitioner guide to modernizing SOC 2 from point-in-time to continuous.
 - CISO Assistant - Open-source GRC platform with pre-mapped SOC 2 controls and risk assessment workflows. See GRC Platforms section for full entry.
 - [The Complete Guide to SOC 2 Automation](https://www.workstreet.com/blog/soc-2-automation) - Platform-agnostic automation patterns: evidence collection pipelines, continuous monitoring architectures, and control mapping to infrastructure.
+- [Chiaro SOC 2 Methodology](https://github.com/Chiaro-HQ/methodology) - The full audit methodology a CPA firm tests against, as JSON and markdown: 89 controls, 369 test attributes with pass criteria, evidence standards per source, and a census-based Type II method that tests complete populations by default, with a disclosed sampling fallback where a population cannot be retrieved in full. Machine-readable, so evidence pipelines and coding agents can check work against the same criteria the examination uses. CC BY 4.0.
 
 ### ISO 27001
 
