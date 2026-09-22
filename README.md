@@ -390,6 +390,7 @@ Complementary curated lists for GRC engineering domains:
 - [Awesome Security](https://github.com/sbilly/awesome-security) - Comprehensive security tools, libraries, and resources across all security domains.
 - [Awesome DevSecOps](https://github.com/TaptuIT/awesome-devsecops) - Security integrated into DevOps workflows and CI/CD pipelines.
 - [Awesome Threat Intelligence](https://github.com/hslatman/awesome-threat-intelligence) - Threat intelligence resources for risk-informed decision making.
+- [KeyDrift](https://keydrift.dev) - Scans deployed HTML and JavaScript for exposed secrets while recognizing public browser credentials that should not be treated as leaks.
 
 ### Infrastructure & Automation
 
