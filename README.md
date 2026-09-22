@@ -270,6 +270,22 @@ Commercial compliance platform providing continuous control monitoring and autom
 
 - [Official Site](https://vanta.com)
 
+### Allowly Hiring Evidence (Commercial)
+
+Hosted deterministic policy runner for structured employment screening. It evaluates selected fields under an approved policy, returns `advance`, `confirm`, `escalate`, or `deny`, records linked reviews and corrections, and exports Hiring Decision Packs with signed records.
+
+**Why it matters:** Provides an API and portable evidence for inspecting which policy version produced a screening decision and what happened in later review or correction. It does not prove fairness, source truth, human identity, downstream enforcement, completeness, bias auditing, or legal compliance.
+
+**Best for:** Hiring teams integrating structured screening or AI-assisted workflows that need reviewable decision records.
+
+**License:** Proprietary hosted service; public documentation, API contract, receipt profile, and verifier are available.
+
+**Tags:** both
+
+- [Documentation](https://allowly.ai/docs/solutions/hiring/)
+- [OpenAPI](https://allowly.ai/docs/solutions/hiring/api/openapi.json)
+- [Public Screening Decisions Profile](https://github.com/Allowly-AI/screening-decisions-profile)
+
 **Open-source alternative note:** For open-source evidence automation, combine Syft (SBOM) + Grype (vulnerability scanning) + Cloud Custodian (policy enforcement) + CloudTrail/native audit logs with custom integration scripts. Commercial platforms (Drata/Vanta) provide turnkey integrations and compliance-specific workflows at the cost of vendor lock-in.
 
 ## Learning Resources
