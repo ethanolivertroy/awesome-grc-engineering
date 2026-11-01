@@ -270,6 +270,21 @@ Commercial compliance platform providing continuous control monitoring and autom
 
 - [Official Site](https://vanta.com)
 
+### StandardOS (Commercial)
+
+Commercial compliance platform for European companies, covering several ISO standards and EU instruments on one subscription: ISO 27001, ISO 42001, NIS2, the Cyber Resilience Act, DORA, the GDPR and the AI Act among others. Twelve connected systems refresh evidence on their own, and every control names what is checked.
+
+**Why it matters:** Customer data is hosted in the EU. The regulation catalogues are read from the Official Journal and published as open data, so each requirement can be checked against the legal text it comes from.
+
+**Best for:** European software companies that need several frameworks at once rather than one certification, and want the records in the EU.
+
+**Maturity:** early stage, launched 2026.
+
+**Tags:** both
+
+- [Official Site](https://getstandardos.com)
+- [Open datasets](https://getstandardos.com/datasets)
+
 **Open-source alternative note:** For open-source evidence automation, combine Syft (SBOM) + Grype (vulnerability scanning) + Cloud Custodian (policy enforcement) + CloudTrail/native audit logs with custom integration scripts. Commercial platforms (Drata/Vanta) provide turnkey integrations and compliance-specific workflows at the cost of vendor lock-in.
 
 ## Learning Resources
