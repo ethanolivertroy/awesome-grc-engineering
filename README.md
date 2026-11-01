@@ -272,9 +272,9 @@ Commercial compliance platform providing continuous control monitoring and autom
 
 ### StandardOS (Commercial)
 
-Commercial compliance platform for European companies, covering the ISO standards and the EU instruments on one subscription: ISO 27001, ISO 42001, NIS2, the Cyber Resilience Act, DORA, the GDPR and the AI Act among others. Twelve connected systems refresh evidence on their own, and every control names what is checked.
+Commercial compliance platform for European companies, covering several ISO standards and EU instruments on one subscription: ISO 27001, ISO 42001, NIS2, the Cyber Resilience Act, DORA, the GDPR and the AI Act among others. Twelve connected systems refresh evidence on their own, and every control names what is checked.
 
-**Why it matters:** EU-hosted, with the regulation catalogues read from the Official Journal and published as open data, so the evidence trail and the legal text behind it come from the same place.
+**Why it matters:** Customer data is hosted in the EU. The regulation catalogues are read from the Official Journal and published as open data, so each requirement can be checked against the legal text it comes from.
 
 **Best for:** European software companies that need several frameworks at once rather than one certification, and want the records in the EU.
 
